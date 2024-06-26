@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Theme.MAIN" parent="XUITheme.Phone" />
+
+  <!-- 启动页风格 -->
+  <style name="Theme.Splash" parent="Theme.MAIN">
+    <item name="android:windowBackground">@drawable/layer_bg_splash</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+  </style>
+</resources>

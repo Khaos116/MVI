@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 启动页风格 -->
+  <style name="Theme.Splash" parent="Theme.MAIN">
+    <item name="android:windowBackground">@drawable/layer_bg_splash</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+    <!--安卓12启动效果背景色-->
+    <item name="android:windowSplashScreenBackground">@color/purple</item>
+    <!--安卓12启动效果中间图标-->
+    <item name="android:windowSplashScreenAnimatedIcon">@drawable/layer_list_splash_logo</item>
+    <!--安卓12启动效果时长【不超过1秒】-->
+    <item name="android:windowSplashScreenAnimationDuration">1000</item>
+    <!--安卓12启动效果底部图标600*240-->
+    <item name="android:windowSplashScreenBrandingImage">@drawable/svg_splash_bottom</item>
+  </style>
+</resources>
