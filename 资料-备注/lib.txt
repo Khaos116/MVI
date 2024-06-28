@@ -54,6 +54,7 @@
 54.@话题效果 https://github.com/wangtaoT/MentionEditText?tab=readme-ov-file【https://github.com/Elip-kio/MentionEditText】
 55.二维码 https://github.com/jenly1314/ZXingLite
 56.手势解锁 https://github.com/aritraroy/PatternLockView
+57.异常上报 https://github.com/iqiyi/xCrash【https://github.com/ACRA/acra】
 
 换肤
 夜间模式
