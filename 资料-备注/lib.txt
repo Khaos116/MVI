@@ -31,7 +31,7 @@
 31.JS交互 JsBridge https://github.com/uknownothingsnow/JsBridge
 32.流式布局 Flexbox https://github.com/google/flexbox-layout【https://blog.csdn.net/weixin_39397471/article/details/90257522】
 33.文件操作 FileOperator https://github.com/javakam/FileOperator
-34.异常上报 Lark https://open.larksuite.com/document/client-docs/bot-v3/use-custom-bots-in-a-group
+34.异常上报 Lark https://open.larksuite.com/document/client-docs/bot-v3/use-custom-bots-in-a-group【https://discord.com/】
 35.文件上传 AndroidUploadSrvice https://github.com/gotev/android-upload-service
 36.控件过度动画 TransformationLayout https://github.com/skydoves/TransformationLayout
 37.图片控件 Sketch https://github.com/panpf/sketch
