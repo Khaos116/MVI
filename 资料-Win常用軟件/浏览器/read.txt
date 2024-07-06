@@ -1,0 +1,10 @@
+我选择的是：Brave  https://brave.com/download/
+  优点：
+  在浏览速度方面排名第二
+  对系统资源影响小
+  出色的在线隐私和安全功能
+  完全兼容 Chrome 扩展
+  缺点：
+  与其他选项相比，它的用户群要小得多
+
+对比文章：https://mspoweruser.com/zh-CN/fastest-browser-pc/

@@ -1,0 +1,52 @@
+1.密码管理软件：
+  a.1password https://1password.com/  3$一个月
+  b.Bitwarden https://bitwarden.com/  10$一年
+2.音乐软件：
+  汽水音乐【主要关联抖音】：https://www.douyin.com/qishui/ 8CNY一个月
+  YMusic【仅限安卓，主要关联Youtube】：https://ymusic.io/  免费
+3.远程软件：
+  Parsec【主要玩游戏】:https://parsec.app/
+  Chrome Remote【中国无法使用】：https://remotedesktop.google.com/?hl=zh-cn
+4.截屏：
+  SniPaste: https://www.snipaste.com/
+5.桌面软件管理：
+  Rolan：https://getrolan.com/
+6.网络连接、网速管理：
+  NetLimiter：https://www.netlimiter.com/
+  破解NetLimiter【5.3.14.0是可以的】：https://github.com/Baseult/NetLimiterCrack/releases/tag/v1
+7.文本编辑器：
+  Sublime Text 3【可以安装插件】：https://www.sublimetext.com/
+8.文件搜索：
+  Everything：https://www.voidtools.com/zh-cn/
+9.抓包：
+  Charles:https://www.charlesproxy.com/
+  注册码生成：https://inused.github.io/pages/file/tool/CharlesKeygen.html
+  Registered Name:  Tony
+  License Key:  dd707c88f7dee6bbcf
+10.内存管理：
+  Mem Reduct【小巧】：https://github.com/henrypp/memreduct
+  软媒雷达【只下载雷达即可】：https://mofang.ruanmei.com/
+11.网速监控：
+  TrafficMonitor：https://github.com/zhongyang219/TrafficMonitor
+  修复显示上移问题：https://github.com/mynetfan/TrafficMonitor/releases/tag/v1.85
+12.Windows在线激活：
+  Microsoft Activation Scripts (MAS)：https://github.com/massgravel/Microsoft-Activation-Scripts
+13.Windows快捷设置系统:
+  Optimizer：https://github.com/hellzerg/optimizer
+14.聊天：
+  Letstalk【台湾】：https://www.letstalk.net/event
+  Lark【字节跳动海外子公司，新加坡】：https://www.larksuite.com/en_sg
+  Discord【美国】：https://discord.com/
+  Telegram：https://telegram.org/
+15.窗口置顶：
+  DeskPins：https://efotinis.neocities.org/deskpins/
+16.文件差异对比：
+  Beyond Compare：https://www.scootersoftware.com/
+17.文件压缩：
+  Bandizip：https://www.bandisoft.com/bandizip/
+18.文件下载
+  IDM：https://www.internetdownloadmanager.com/
+19.图片预览：
+  2345看图王：https://pic.2345.cc/
+20.本地视频播放：
+  PotPlayer：https://potplayer.daum.net/?lang=zh_CN
