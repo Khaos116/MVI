@@ -1,3 +1,4 @@
+import com.android.build.api.dsl.Packaging
 import java.text.SimpleDateFormat
 
 plugins {
@@ -66,9 +67,12 @@ android {
     dataBinding = false
   }
 
+  //https://github.com/whitechi73/OpenShamrock/blob/4adbc12a0bfa2220f230fcc0a7f92b7309d409eb/app/build.gradle.kts#L113
   packaging {
     resources {
       excludes += "/META-INF/{AL2.0,LGPL2.1}"
+      excludes += "/META-INF/INDEX.LIST"
+      excludes += "/META-INF/versions/9/OSGI-INF/MANIFEST.MF"
     }
   }
 
@@ -104,6 +108,7 @@ dependencies {
   implementation(libs.base.utilcodex)
   implementation(libs.base.xxpermissions)
   implementation(libs.base.coil)
+  implementation(libs.base.glide)
   implementation(libs.base.startup)
   implementation(libs.base.immersionbar)
   implementation(libs.base.immersionbar.ktx)
@@ -115,56 +120,58 @@ dependencies {
   implementation(libs.base.xlog.libcat)
 
   implementation(libs.third.xui)
-  implementation(libs.third.androidveil)
-  implementation(libs.third.tabLayout)
-  implementation(libs.third.pictureselector)
-  implementation(libs.third.compress)
-  implementation(libs.third.dkplayer)
-  implementation(libs.third.dkplayer.ui)
-  implementation(libs.third.dkplayer.exo)
-  implementation(libs.third.lottie)
-  implementation(libs.third.svgaplayer)
-  implementation(libs.third.jsoup)
-  implementation(libs.third.libphonenumber)
-  implementation(libs.third.datepickerview)
-  implementation(libs.third.desugar)
-  implementation(libs.third.calendar)
-  implementation(libs.third.hutool)
-  implementation(libs.third.bouncycastle)
-  implementation(libs.third.protobuf.javalite)
-  implementation(libs.third.emoji)
-  implementation(libs.third.appupdate)
-  implementation(libs.third.banner)
-  implementation(libs.third.jsbridge)
-  implementation(libs.third.flexbox)
-  implementation(libs.third.file.core)
-  implementation(libs.third.file.selector)
-  implementation(libs.third.file.compressor)
-  implementation(libs.third.uploadservice)
-  implementation(libs.third.transformationlayout)
-  implementation(libs.third.sketch)
-  implementation(libs.third.fancy)
-  implementation(libs.third.spinner)
-  implementation(libs.third.xpopup)
-  implementation(libs.third.blurview)
-  implementation(libs.third.dialogx)
-  implementation(libs.third.rteditor)
-  implementation(libs.third.skin)
-  implementation(libs.third.skin.standard)
-  implementation(libs.third.skin.reflex)
-  implementation(libs.third.ktor.core)
-  implementation(libs.third.ktor.android)
-  implementation(libs.third.ktor.okhttp)
-  implementation(libs.third.ktor.negotiation)
-  implementation(libs.third.ktor.json)
-  implementation(libs.third.ktor.logging)
-
-
-  debugImplementation(libs.develop.vasdolly)
-  debugImplementation(libs.develop.chucker)
-  debugImplementation(libs.develop.flipper)
-  debugImplementation(libs.develop.soloader)
-  debugImplementation(libs.develop.konsist)
+  //implementation(libs.third.androidveil)
+  //implementation(libs.third.tabLayout)
+  //implementation(libs.third.pictureselector)
+  //implementation(libs.third.compress)
+  //implementation(libs.third.dkplayer)
+  //implementation(libs.third.dkplayer.ui)
+  //implementation(libs.third.dkplayer.exo)
+  //implementation(libs.third.lottie)
+  //implementation(libs.third.svgaplayer)
+  //implementation(libs.third.jsoup)
+  //implementation(libs.third.libphonenumber)
+  //implementation(libs.third.datepickerview)
+  //implementation(libs.third.desugar)
+  //implementation(libs.third.calendar)
+  //implementation(libs.third.hutool)
+  //implementation(libs.third.bouncycastle)
+  //implementation(libs.third.protobuf.javalite)
+  //implementation(libs.third.emoji)
+  //implementation(libs.third.appupdate)
+  //implementation(libs.third.banner)
+  //implementation(libs.third.jsbridge)
+  //implementation(libs.third.flexbox)
+  //implementation(libs.third.file.core)
+  //implementation(libs.third.file.selector)
+  //implementation(libs.third.file.compressor)
+  //implementation(libs.third.uploadservice)
+  //implementation(libs.third.transformationlayout)
+  //implementation(libs.third.sketch)
+  //implementation(libs.third.fancy)
+  //implementation(libs.third.spinner)
+  //implementation(libs.third.xpopup)
+  //implementation(libs.third.blurview)
+  //implementation(libs.third.dialogx)
+  //implementation(libs.third.rteditor)
+  //implementation(libs.third.skin)
+  //implementation(libs.third.skin.standard)
+  //implementation(libs.third.skin.reflex)
+  //implementation(libs.third.ktor.core)
+  //implementation(libs.third.ktor.android)
+  //implementation(libs.third.ktor.okhttp)
+  //implementation(libs.third.ktor.negotiation)
+  //implementation(libs.third.ktor.json)
+  //implementation(libs.third.ktor.logging)
+  //
+  //
+  //debugImplementation(libs.develop.vasdolly)
+  //debugImplementation(libs.develop.chucker)
+  //debugImplementation(libs.develop.flipper)
+  //debugImplementation(libs.develop.soloader)
+  //debugImplementation(libs.develop.konsist)
+  //
+  //releaseImplementation (libs.develop.flipper.noop)
 }
 
 //<editor-fold defaultstate="collapsed" desc="打包处理">
