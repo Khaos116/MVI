@@ -14,6 +14,7 @@ buildscript {
     classpath(libs.classpath.apk.parser)
     classpath(libs.classpath.aspectjx)
     classpath(libs.classpath.vasdolly)
+    classpath(libs.classpath.r8)
   }
 }
 
