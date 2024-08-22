@@ -55,6 +55,7 @@
 55.二维码 https://github.com/jenly1314/ZXingLite
 56.手势解锁 https://github.com/aritraroy/PatternLockView
 57.异常上报 https://github.com/iqiyi/xCrash【https://github.com/ACRA/acra】
+58.免安装运行插件APK https://github.com/limpoxe/Android-Plugin-Framework
 
 换肤
 夜间模式
